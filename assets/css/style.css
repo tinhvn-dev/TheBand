@@ -19,6 +19,7 @@ html {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1000;
 }
 
 #nav {
@@ -94,8 +95,27 @@ html {
 }
 
 #slider {
-    min-height: 500px;
-    background-color: #333;
+    position: relative;
+    margin-top: 46px;
+    padding-top: 50%; /*Chiều cao của slider bằng 50% chiều rộng*/
+    background: url('/assets/img/slider/hinh-1.png') top center / cover no-repeat;
+}
+
+#slider .text-content {
+    position: absolute;
+    color: #fff;
+    bottom: 48px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+#slider .text-heading {
+    font-weight: 500;
+    font-size: 24px;
+}
+#slider .text-description {
+    font-size: 16px;
+    margin-top: 25px;
 }
 
 #content {
