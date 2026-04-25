@@ -152,6 +152,27 @@ html {
     line-height: 1.4; /*Tiếng Anh 1.6 Tiếng Việt 1.6*/
 }
 
+#content .members-list {
+    margin-top: 48px;
+    overflow: hidden; /*Xóa phần thừa khi float*/
+}
+
+#content .members-item {
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+}
+
+#content .members-name {
+    font-size: 15px;
+}
+
+#content .members-img {
+    width: 154px;
+    margin-top: 16px;
+    border-radius: 4px;
+}
+
 #footer {
 
 }
