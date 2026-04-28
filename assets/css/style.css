@@ -12,6 +12,49 @@ html {
     color: #fff !important;
 }
 
+.text-center {
+    text-align: center !important;
+}
+
+.mt-8 {
+    margin-top: 8px !important;
+}
+
+.mt-16 {
+    margin-top: 16px !important;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-third {
+    width: 33.3333%;
+}
+
+.col-full {
+    width: 100%;
+}
+
+
+
 #main {
 
 }
@@ -161,12 +204,6 @@ html {
     overflow: hidden; /*Xóa phần thừa khi float*/
 }
 
-#content .members-item {
-    float: left;
-    width: 33.3333%;
-    text-align: center;
-}
-
 #content .members-name {
     font-size: 15px;
 }
@@ -216,15 +253,11 @@ html {
 
 /* Places */
 .places-list {
-    margin: 32px -8px 0;
-    overflow: hidden;
+    margin-top: 32px;
     padding-bottom: 48px;
+    /* overflow: hidden; vì đã có row::after */
 }
-.place-item {
-    float: left;
-    width: 33.3333%;
-    padding: 0 8px;
-}
+
 .place-img {
     width: 100%;
     display: block;
@@ -367,6 +400,49 @@ html {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+/* Contact Form */
+.contact-content {
+    margin-top: 48px;
+}
+
+.contact-info {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contact-info i[class*="ti-"] {
+    width: 30px;
+    display: inline-block;
+}
+
+.contact-form {
+    font-size: 15px;
+
+}
+
+.contact-form .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    outline: none;
+}
+
+.contact-form .form-submit-btn {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    padding: 10px 16px;
+    float: right;
+    outline: none;
+}
+
+.contact-form .form-submit-btn:hover {
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+    border: 1px solid #ccc;
 }
 
 /* Footer Section */
