@@ -25,6 +25,10 @@ html {
     margin-top: 16px !important;
 }
 
+.mt-32 {
+    margin-top: 32px !important;
+}
+
 .row {
     margin-left: -8px;
     margin-right: -8px;
@@ -436,6 +440,15 @@ html {
     line-height: 1.5;
 }
 
+.contact-info a {
+    color: #101aef;
+    opacity: 0.8;
+}
+
+.contact-info a:hover {
+    opacity: 1;
+}
+
 .contact-info i[class*="ti-"] {
     width: 30px;
     display: inline-block;
@@ -463,17 +476,17 @@ html {
     text-align: center;
 }
 
-#footer .social-list {
+#footer .socials-list {
     font-size: 24px;
 
 }
 
-#footer .social-list a {
+#footer .socials-list a {
     color: rgba(0, 0, 0, 0.6);
     text-decoration: none;
 }
 
-#footer .social-list a:hover {
+#footer .socials-list a:hover {
     color: rgba(0, 0, 0, 0.4);
 }
 
