@@ -10,6 +10,9 @@
 
 /* Moblie */
 @media (max-width: 740px) {
+    .s-col-full {
+        width: 100%;
+    }
     #header {
         overflow: hidden;
     }
@@ -43,8 +46,18 @@
         background-color: #333;
     }
 
-    #nav .subnav a {
+    #nav .subnav a {    
         color: #fff;
         padding: 5px 41px;
     }
+
+    #content .members-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .members-img {
+        width: 60%;
+    }
+
 }

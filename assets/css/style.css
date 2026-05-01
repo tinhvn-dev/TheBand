@@ -238,7 +238,7 @@ html {
 }
 
 #content .members-list {
-    margin-top: 48px;
+    margin-top: 32px;
     overflow: hidden; /*Xóa phần thừa khi float*/
 }
 
