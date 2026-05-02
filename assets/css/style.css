@@ -65,6 +65,8 @@ html {
     padding: 11px 16px;
     margin-top: 15px;
     display: inline-block;
+    appearance: none; /* Bỏ đi style mặc định của trình duyệt*/
+    -webkit-appearance: none; /*Dành riêng cho safari*/
 }
 
 .btn:hover {
@@ -184,7 +186,7 @@ html {
     position: relative;
     margin-top: 46px;
     padding-top: 50%; /*Chiều cao của slider bằng 50% chiều rộng*/
-    background: url('/assets/img/slider/hinh-1.png') top center / cover no-repeat;
+    background: url('../img/slider/hinh-1.png') top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -200,9 +202,11 @@ html {
     font-weight: 500;
     font-size: 24px;
 }
+
 #slider .text-description {
     font-size: 16px;
     margin-top: 25px;
+    text-shadow: 0 0 1px #000;
 }
 
 #content {
